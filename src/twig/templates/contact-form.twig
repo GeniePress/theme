@@ -1,0 +1,6 @@
+{% extends 'layouts/main.twig' %}
+
+{% block content %}
+    <heading heading="{{ page.post_title }}"></heading>
+    <contact-form endpoint="{{ ajax_url('contact-form') }}"></contact-form>
+{% endblock %}

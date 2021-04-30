@@ -1,0 +1,10 @@
+node_modules/
+vendor/
+dist/
+yarn.lock
+package-lock.json
+composer.lock
+.DS_Store
+Thumbs.db
+npm-debug.log
+yarn-error.log

@@ -1,0 +1,32 @@
+{
+  "name": "genie-theme",
+  "version": "1.0.0",
+  "description": "A sample theme using the GeniePress Framework",
+  "author": "Sunil Jaiswal",
+  "license": "GPL-2.0-or-later",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack --mode development --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "webpack --mode production --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "webpack --mode development --progress --hide-modules  --watch --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.20.0",
+    "cross-env": "^7.0.2",
+    "gsap": "^3.5.1",
+    "laravel-mix": "^5.0.5",
+    "laravel-mix-polyfill": "^2.0.0",
+    "moment": "^2.28.0",
+    "moment-timezone": "^0.5.31",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.3",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.3",
+    "tailwindcss": "^1.8.10",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  }
+}

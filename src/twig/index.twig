@@ -1,0 +1,8 @@
+{% extends 'layouts/main.twig' %}
+
+{% block content %}
+    <section>
+        <heading heading="{{ page.post_title }}"></heading>
+        <p>{{ page.post_content|wpautop }}</p>
+    </section>
+{% endblock %}
