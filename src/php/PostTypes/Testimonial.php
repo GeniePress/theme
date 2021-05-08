@@ -3,14 +3,14 @@
 namespace Theme\PostTypes;
 
 use Exception;
-use Lnk7\GeniePress\Abstracts\CustomPost;
-use Lnk7\GeniePress\Fields\SelectField;
-use Lnk7\GeniePress\Fields\TextField;
-use Lnk7\GeniePress\Utilities\CreateCustomPostType;
-use Lnk7\GeniePress\Utilities\CreateSchema;
-use Lnk7\GeniePress\Utilities\RegisterAjax;
-use Lnk7\GeniePress\Utilities\RegisterApi;
-use Lnk7\GeniePress\Utilities\Where;
+use GeniePress\Abstracts\CustomPost;
+use GeniePress\Fields\SelectField;
+use GeniePress\Fields\TextField;
+use GeniePress\Utilities\CreateCustomPostType;
+use GeniePress\Utilities\CreateSchema;
+use GeniePress\Utilities\RegisterAjax;
+use GeniePress\Utilities\RegisterApi;
+use GeniePress\Utilities\Where;
 use Theme\Exceptions\ThemeException;
 
 /**

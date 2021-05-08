@@ -2,7 +2,7 @@
 
 namespace Theme\Exceptions;
 
-use Lnk7\GeniePress\Exceptions\GenieException;
+use GeniePress\Exceptions\GenieException;
 
 class ThemeException extends GenieException
 {

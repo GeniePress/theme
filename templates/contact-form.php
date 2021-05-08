@@ -3,7 +3,7 @@
  * Template name: Contact Form
  */
 
-use Lnk7\GeniePress\View;
+use GeniePress\View;
 use Theme\PostTypes\Page;
 
 View::with('templates\contact-form.twig')
