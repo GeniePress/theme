@@ -2,8 +2,8 @@
 
 namespace Theme\Templates;
 
-use Lnk7\GeniePress\Interfaces\GenieComponent;
-use Lnk7\GeniePress\Utilities\RegisterAjax;
+use GeniePress\Interfaces\GenieComponent;
+use GeniePress\Utilities\RegisterAjax;
 
 class ContactForm implements GenieComponent
 {

@@ -2,7 +2,7 @@
 
 namespace Theme;
 
-use Lnk7\GeniePress\Genie;
+use GeniePress\Genie;
 use Theme\PostTypes\Page;
 use Theme\PostTypes\Post;
 use Theme\PostTypes\Testimonial;

@@ -1,6 +1,8 @@
 {
   "name": "geniepress/theme",
   "description": "A sample theme using the GeniePress framework",
+  "keywords": ["framework", "wordpress", "theme"],
+  "type": "project",
   "license": "MIT",
   "require": {
     "geniepress/framework": "^1.0"

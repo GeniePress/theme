@@ -2,8 +2,8 @@
 
 namespace Theme;
 
-use Lnk7\GeniePress\Interfaces\GenieComponent;
-use Lnk7\GeniePress\Utilities\HookInto;
+use GeniePress\Interfaces\GenieComponent;
+use GeniePress\Utilities\HookInto;
 
 class Theme implements GenieComponent
 {
