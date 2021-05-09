@@ -7,6 +7,7 @@
     <script> window.site = '{{ site|json }}'</script>
 
     {{ theme.wp_head() }}
+
     {% block js %}
     {% endblock %}
 </head>
@@ -15,7 +16,6 @@
 <div id="root" class="loaded" v-cloak>
     {% block content %}
     {% endblock %}
-
 </div>
 
 {# wp footer #}

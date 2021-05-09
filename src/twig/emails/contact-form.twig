@@ -1,0 +1,11 @@
+{% extends 'layouts/email.twig' %}
+
+{% block content %}
+    <div>
+        <h2>Thank you</h2>
+        <p>Thank you for contacting us. Here are the details of your enquiry:</p>
+        <p>Name: {{ name }}</p>
+        <p>Email: {{ email }}</p>
+        <p>message: {{ message|wpautop }}</p>
+    </div>
+{% endblock %}

@@ -5,7 +5,7 @@ syntax.
 
 ## Learning GeniePress
 
-Get the [GeniePress documentation](https://geneipress.org)
+Discover the [GeniePress documentation](https://geneipress.org)
 
 ## Security Vulnerabilities
 
