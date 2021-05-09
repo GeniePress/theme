@@ -12,15 +12,6 @@ class Theme implements GenieComponent
 	{
 
 		/**
-		 * Set the cookie name for the session
-		 */
-		HookInto::filter('genie_session_name')
-			->run(function ($name) {
-				return 'theme_session';
-			});
-
-
-		/**
 		 * Set the cookie name for the options Key
 		 */
 		HookInto::filter('genie_option_key')
